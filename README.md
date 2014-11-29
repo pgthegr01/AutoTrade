@@ -2,7 +2,7 @@ AutoTrade
 =========
 
 Automated Trade Testing Platform
-
+==============================================================================================================
 Database:
 
 1 - Root table contains each http response (get price)
@@ -15,7 +15,8 @@ Database:
 
 4 - Betting program will be triggered by a timer - all views saved to the same betting table (betting)
     id . otime . ctime . obetid . cbetid . oprice . cprice . viewid . 
-    
+
+==============================================================================================================
 Programs:
 
 1 - Get price
@@ -44,4 +45,13 @@ Programs:
             update row with indicator
 
 4 - Betting
-    
+==============================================================================================================
+Notes:
+
+1 - Must include a calendar for stock exchange opening times
+
+2 - Must include cost of trade
+
+3 - Must include maximum leverage
+
+4 - Must include slippage
